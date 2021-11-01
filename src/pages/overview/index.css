@@ -1,0 +1,160 @@
+.wrapper {
+    height: 100%;
+    padding: 4px;
+    margin: 16px;
+}
+
+.card {
+    border-color: lightgrey;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 4px;
+}
+
+.h-flex {
+    display: flex;
+}
+
+.section-company {
+    padding: 8px;
+
+    flex: 1;
+
+    border-color: lightgrey;
+    border-right-style: solid;
+    border-right-width: 2px;
+}
+
+.section-office {
+    padding: 8px;
+
+    flex: 1;
+
+    padding: 8px;
+}
+
+.section-companies {
+    padding: 8px;
+    margin-top: 4px;
+
+    border-color: lightgrey;
+    border-top-style: solid;
+    border-top-width: 2px;
+}
+
+.section-companies .companies {
+    margin-top: 8px;
+    display: grid;
+    grid-template-columns: repeat(2, 350px);
+    gap: 10px;
+    width: 100%;
+}
+
+.section-companies .companies h2 {
+    margin-bottom: 24px;
+}
+
+.company-card {
+    width: 350px;
+    padding: 4px;
+}
+
+.company-card:hover {
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.company-card .company-card-title {
+    display: flex;
+    justify-content: space-between;
+
+    font-weight: bold;
+
+    border-color: lightgrey;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
+
+.company-card .company-card-content {
+    font-size: 10pt;
+}
+
+.company-card .company-card-content .label {
+    font-weight: bold;
+}
+
+.company-card .company-card-content .description {
+    margin-bottom: 4px;
+}
+
+.input-label {
+    font-weight: bold;
+}
+
+.input-field {
+    height: 26px;
+
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 0px;
+    margin-right: 8px;
+    padding: 4px;
+
+    border-color: lightgrey;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+}
+
+.input-field:last-child {
+    margin-right: 0px;
+}
+
+.input-submit {
+    margin-top: 8px;
+    background-color: lightgrey;
+    border: none;
+    font-size: 12pt;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.input-submit:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+
+.close-icon {
+    height: 20px;
+    width: 20px;
+}
+
+.close-icon:hover {
+    background-color: lightgray;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.error-message {
+    padding: 4px;
+    margin: 16px;
+    color: #8B0000;
+
+    background-color: pink;
+    border-color: #8B0000;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+}
+
+.success-message {
+    padding: 4px;
+    margin: 16px;
+    color: darkgreen;
+
+    background-color: lightgreen;
+    border-color: darkgreen;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+}
